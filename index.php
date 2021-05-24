@@ -19,6 +19,7 @@
         // output data of each row
         while($row = mysqli_fetch_assoc($result)) {
             echo "id: " . $row["id"]. " Volumen: " . $row["volumen"] . "<br>";
+            echo "Gato";
         }
         } else {
         echo "0 results";
