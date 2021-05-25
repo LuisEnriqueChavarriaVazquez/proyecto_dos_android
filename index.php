@@ -14,6 +14,7 @@
     
         <?php
             include 'menu.php';
+            echo "<br>";
             include 'card.php';
         ?>
     
