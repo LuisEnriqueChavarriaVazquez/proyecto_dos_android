@@ -8,7 +8,7 @@
 </head>
 <body>
     <?php
-        echo "<h2>Hola!!</h2><br>";
+        echo "<h2>Hola!!</h2>";
 
         include 'conn.php';
 
