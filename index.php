@@ -9,7 +9,7 @@
             
     <title>Proyecto dos</title>
 </head>
-<body>
+<body class="light-blue darken-3">
     
         <?php
             include 'menu.php';

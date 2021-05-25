@@ -16,7 +16,7 @@ $result = mysqli_query($conn, $sql);
 if (mysqli_num_rows($result) > 0) {
 // output data of each row
 while($row = mysqli_fetch_assoc($result)) {
-    echo "<br><h1>" . "Volumen: " . $row["volumen"] . "</h1><br>";
+    echo "<br><h3>" . "Vol: " . $row["volumen"] . "</h3><br>";
 }
 } else {
 echo "0 results";
