@@ -9,9 +9,10 @@ $conn = mysqli_connect($servername, $username, $password, $database);
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
+
 echo "Connected successfully";
 
-$sql = "SELECT id, volumen FROM volumenTable";
+$sql = "SELECT id, volumen FROM volumentable";
 $result = mysqli_query($conn, $sql);
 
 if (mysqli_num_rows($result) > 0) {
