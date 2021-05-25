@@ -18,7 +18,7 @@ $result = mysqli_query($conn, $sql);
 if (mysqli_num_rows($result) > 0) {
 // output data of each row
 while($row = mysqli_fetch_assoc($result)) {
-    echo "<br>" . "id: " . $row["id"]. " Volumen: " . $row["volumen"] . "<br>";
+    echo "<br>" . "Volumen: " . $row["volumen"] . "<br>";
 }
 } else {
 echo "0 results";
