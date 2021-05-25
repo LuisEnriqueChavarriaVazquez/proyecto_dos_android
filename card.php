@@ -5,18 +5,24 @@
                   <?php include 'conn.php'; ?>
               </span>
           </div>
-          <a href="https://proyectodosescomsupersonico.herokuapp.com/" 
-             class="s12 m12 waves-effect waves-light btn blue darken-4 white-text"
-             style="width: 100%;">
-              <i class="material-icons left">refresh</i>Refrescar
-          </a>
+          <div>
+            <a href="https://proyectodosescomsupersonico.herokuapp.com/" 
+                class="s12 m12 waves-effect waves-light btn blue darken-4 white-text"
+                style="width: 100%;">
+                <i class="material-icons left">refresh</i>Refrescar
+            </a>
+          </div>
 
             <br>
 
           <!-- Modal Trigger -->
-            <a class="waves-effect waves-light btn blue darken-4 white-text modal-trigger" href="#modal1">
+          <div>
+            <a class="waves-effect waves-light btn blue darken-4 white-text modal-trigger" 
+                style="width: 100%;"
+                href="#modal1">
                 <i class="material-icons left">person</i>Integrantes
             </a>
+          </div>
       </div>
   </div>
 
