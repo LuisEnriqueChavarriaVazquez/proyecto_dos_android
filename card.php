@@ -6,14 +6,16 @@
               </span>
           </div>
           <a href="https://proyectodosescomsupersonico.herokuapp.com/" 
-             class="s12 m12 waves-effect waves-light btn white blue-text"
+             class="s12 m12 waves-effect waves-light btn blue darken-4 white-text"
              style="width: 100%;">
               <i class="material-icons left">refresh</i>Refrescar
           </a>
 
+            <br>
+
           <!-- Modal Trigger -->
-            <a class="waves-effect waves-light btn white blue-text modal-trigger" href="#modal1">
-                <i class="material-icons left">refresh</i>Integrantes
+            <a class="waves-effect waves-light btn blue darken-4 white-text modal-trigger" href="#modal1">
+                <i class="material-icons left">person</i>Integrantes
             </a>
       </div>
   </div>
@@ -23,10 +25,10 @@
   <!-- Modal Structure -->
   <div id="modal1" class="modal">
     <div class="modal-content">
-      <h4>Datos del equipo.</h4>
+      <h4>Integrantes.</h4>
       <p>* Chavarría Vázquez Luis Enrique. <br>
-      * Machorro Vences Ricardo Alberto
-      * Juarez Espinosa Ulises.
+      * Machorro Vences Ricardo Alberto. <br>
+      * Juarez Espinosa Ulises. <br>
       * Esquivel Luna Adan.</p>
     </div>
     <div class="modal-footer">
