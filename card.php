@@ -1,11 +1,8 @@
 <div class="row">
-    <div class="col s12 m6">
-      <div class="card blue-grey darken-1">
+    <div class="col s12 m12">
+      <div class="card white">
         <div class="card-content white-text">
-          <span class="card-title">Volumen de nuestro recipiente.</span>
-          <p>
-          <?php include 'conn.php';?>
-          </p>
+          <span class="card-title">Volumen: <?php include 'conn.php';?> .</span>
         </div>
       </div>
     </div>
